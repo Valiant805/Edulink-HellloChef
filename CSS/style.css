@@ -1,0 +1,561 @@
+/* RESET ALL MARGINS TO ZERO*/
+* {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+/* vh - viewport height*/
+/* vw- viewport width*/
+.sectionOne {
+  height: 120vh;
+  width: 100%;
+}
+
+.navbar {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-weight: bolder;
+  /*background-color: aqua;*/
+}
+
+.banner {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/Images/banner.webp);
+  background-size: cover;
+  background-position: center;
+}
+.bannerText {
+  text-align: center;
+  width: 35%;
+  margin-top: 150px;
+}
+.sectionOne h1 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #494949;
+  margin-bottom: 20px;
+}
+.sectionOne p {
+  font-size: 16px;
+  color: #8f8d8b;
+  margin-bottom: 20px;
+}
+.sectionOne .signUp-Btn {
+  padding: 10px;
+  background-color: #e42a12;
+  color: #fde8e5;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.sectionOne .logo {
+  font-size: 28px;
+  font-weight: 900;
+  color: #e5341d;
+  margin-left: 50px;
+}
+.sectionOne a {
+  font-size: 18px;
+  font-weight: 200;
+  color: #868686;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.sectionOne .signIn-Btn {
+  font-size: 20px;
+  color: #fef0ef;
+  background-color: #e42a12;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.sectionOne .navigation {
+  margin-right: 50px;
+}
+.sectionOne button {
+  font-size: 10px;
+  color: #fef8ef;
+  background-color: #e42a12;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+}
+/*SECTION TWO*/
+
+.sectionTwo{
+  height: 100vh;
+  width: 100%;
+ /* background-color: aqua.*/
+}
+.sectionTwo .title{
+  height: 20%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*background-color: blue;*/
+}
+.sectionTwo h2{
+  font-size: 34px;
+  font-weight: 600;
+  color: #515151;
+  margin-bottom: 4px;
+} 
+.sectionTwo .title{
+  color: #929292;
+}
+.sectionTwo .content{
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  /*background-color: green;*/
+}
+.sectionTwo .principle{
+  height: 80%;
+  width: 25%;
+  /*background-color: #e42a12;*/
+}
+.principle .image{
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  /*background-color: teal;*/
+}
+.convenience .image{
+  background-image: url(/Images/box_over.webp);
+}
+.variety .image{
+  background-image: url(/Images/variety-hi.webp);
+}
+.deliciousness .image{
+  background-image: url(/Images/salmon_katsu.webp);
+}
+.principle .description{
+  height: 50%;
+  width: 100%;
+  /*background-color:#494949;*/
+}
+.principle h3{
+  font-size: 26px;
+}
+.principle .fa-check{
+  color: green;
+  font-weight: 800;
+  margin-right: 4px;
+}
+/*SECTION THREE */
+.sectionThree {
+height:90vh;
+width: 100%;
+display: flex;
+background-color: aqua;
+}
+.sectionThree .image{
+  height: 100%;
+  width: 50%;
+  background-image: url(/Images/Family_cooking.webp);
+  background-size: cover;
+  background-position: center;
+}
+.sectionThree .content{
+  height: 100%;
+  width: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbe6de;
+}
+.sectionThree .text{
+  height: 70%;
+  width:80%;
+}
+.sectionThree h2{
+  font-size: 32px;
+  font-weight: 500;
+  color:#e42c14;
+}
+.sectionThree p{
+  color: #6a635f;
+  margin-bottom: 16px;
+}
+.sectionThree .step{
+  font-weight:600;
+  color: #403d3c;
+  margin-bottom: 14px;
+}
+.sectionThree span{
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff9874;
+  margin-right: 10px;
+}
+.sectionThree .learn-btn{
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fbe5e1;
+  padding: 15px 35px;
+  border-radius: 30px;
+  margin-top: 40px;
+  background-color: #e42a12;
+}
+/*SECTION FOUR*/
+.sectionFour{
+  height: 78vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.sectionFour .title{
+  justify-content: center;
+}
+.sectionFour h2{
+  font-size: 32px;
+  color:#494949;
+}
+.sectionFour p{
+  font-size: 18px;
+  width: 50%;
+  color: #a3a3a3;
+}
+.sectionFour .menu{
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionFour .item{
+  height: 80%;
+  width: 24%;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  background-color: green;
+}
+.sectionFour .vegan{
+  background-image: url(/Images/vegan.webp);
+}
+.sectionFour .weeklyClassic{
+  margin: 0 35px;
+  background-image: url(/Images/weekly_classic.webp);
+}
+.sectionFour .vegetarian{
+  background-image: url(/Images/Vegetarian.webp);
+}
+.item{
+  position: relative;
+}
+.item .tag{
+  width: fit-content;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px 15px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+.vegan p{
+  color: #a3c861;
+  background-color: #d8f4a4;
+}
+.weeklyClassic p{
+  color: #98a8e4;
+  background-color:#d9e3fe;
+}
+.vegetarian p{
+  color:#75c897;
+  background-color: #e5f4d8;
+}
+.sectionFour .menu-btn{
+  padding: 10px 20px;
+  border: none;
+  background-color: #e42a12;
+  border-radius: 30px;
+  border-radius: 30px;
+  color:#fdefed;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+/*SECTION FIVE*/
+.sectionFive{
+  height: 85vh;
+  width: 100%;
+  background-color: #f3f4f6;
+}
+.sectionFive .title{
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.sectionFive .title > img{
+  height: 35px;
+  width: 35px;
+}
+.sectionFive .title > h2{
+  font-size: 36px;
+  font-weight: 400;
+  color:#515151;
+  text-decoration: underline;
+}
+.sectionFive .reviews{
+  height: 85%;
+}
+.sectionFive .users{
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.sectionFive .user{
+  height: 80%;
+  width: 20%;
+  background-position: center;
+  background-size: cover;
+}
+.sectionFive .first{
+  background-image: url(/Images/dxblivin-credit.webp);
+}
+.sectionFive .second{
+  background-image: url(/Images/ayshasaiha.webp);
+}
+.sectionFive .third{
+  background-image: url(/Images/shrimply.webp);
+}
+.sectionFive .fourth{
+  background-image: url(/Images/ashley_dxb.webp);
+}
+.sectionFive .rating{
+  height: 35%;
+  text-align: center;
+}
+.sectionFive .rating > p{
+  color:#9d9d9f;
+  font-size: 28px;
+}
+.sectionFive .meals{
+  color:#e53e28;
+}
+.sectionFive .rating > .stats{
+  font-size: 18px;
+}
+.sectionFive .stats > .fa-solid{
+  color: #f6ad01;
+}
+.sectionFive .stats > img{
+  height: 36px;
+  margin-bottom: -12px;
+}
+/*SECTION SIX*/
+.sectionSix{
+  height: 90vh;
+  width: 100%;
+
+  background-image: url(/Images/subscribe.webp);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sectionSix .form{
+  height: 50%;
+  width: 85%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.sectionSix .form > h2{
+  font-size: 30px;
+  margin: 10px 0;
+  color:#4d4d4d;
+}
+.sectionSix .form > p{
+  margin-bottom: 10px;
+  color:#9a9a9a;
+}
+.sectionSix .form > label{
+  font-size: 14px;
+  margin-left: -290px;
+  color:#cacccf;
+  font-weight: 300;
+}
+.sectionSix .form > input{
+  width: 35%;
+  height: 42px;
+  border: solid 2px #f9f9f9 ;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+  color: #cacccf;
+}
+.sectionSix button{
+  border: none;
+  padding: 13px 10px;
+  background-color: #e42a12;
+  border-radius: 0 10px 10px 0;
+  margin-left:-8px;
+  color: #f8c7c1;
+  font-weight: 500;
+}
+.sectionSix .disclaimer{
+  margin-top: 20px;
+  width: 71%;
+  text-align: center;
+  font-size: 12px;
+  color:#d7d8c9;
+}
+/*SECTION SEVEN*/
+.sectionSeven{
+  height: 90vh;
+  width: 100%;
+}
+.sectionSeven .details{
+  display: flex;
+  margin-left: 70px;
+  gap: 70px;
+}
+.sectionSeven  h2{
+  font-size: 30px;
+  color: #e42a12;
+  justify-content: center;
+  text-align: center;
+}
+.sectionSeven .aboutUs > p {
+  font-weight: bold;
+  color:#494949;
+}
+.sectionSeven .moreInfo > p {
+  font-weight: bold;
+  color:#494949;
+}
+.sectionSeven .workWithUs > p {
+  font-weight: bold;
+  color:#494949;
+}
+.sectionSeven .ourBlog > p{
+  font-weight: bold;
+  color:#494949;
+}
+.sectionSeven .ourBlog > img{
+  height: 15vh;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.sectionSeven .ourBlog{
+  text-align: right;
+}
+.sectionSeven .contactUs > p{
+  font-weight: bold;
+  color:#494949;
+}
+.sectionSeven .contactUs{
+  text-align: right;
+}
+.sectionSeven .subscription > p{
+  font-weight: bold;
+  margin-top: 60px;
+  color:#494949;
+
+}
+.sectionSeven .subscription > button{
+  border: none;
+  padding: 13px 10px;
+  background-color: #e42a12;
+  border-radius: 0 10px 10px 0;
+  margin-left:-8px;
+  color: #f8c7c1;
+  font-weight: 500;
+}
+.sectionSeven .subscription > label{
+  font-size: 14px;
+  color:#cacccf;
+  font-weight: 300;
+}
+.sectionSeven .subscription > input{
+  width: 20%;
+  height: 42px;
+  border: solid 2px #f9f9f9 ;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+  color: #cacccf;
+}
+.sectionSeven .reviews > p{
+  font-weight: bold;
+  color:#494949;
+  
+}
+.sectionSeven .reviews{
+  margin-left: 500px;
+  margin-top: -70px;
+  align-items: right;
+}
+.sectionSeven .reviews > .fa-solid{
+  color:#f6ad01;
+}
+.sectionSeven .reviews >img{
+  height: 50px;
+  margin-bottom: -20px;
+  margin-left: -20px;
+}
+.sectionSeven .socials > p{
+  font-weight: bold;
+  color:#494949;
+}
+.sectionSeven .socials{
+  margin-top: -90px;
+  margin-left: 800px;
+
+}
+.sectionSeven .heart{
+  color: #e42a12;
+}
+.sectionSeven .footnote2b {
+  color: #e42a12;
+}
+.sectionSeven .footnote1{
+  font-weight: bold;
+  color:#494949;
+}
+.sectionSeven .footnote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  margin-top: 100px;
+}
+.sectionSeven .footnote2{
+  font-size: 15px;
+}
+.sectionSeven .fa-brands{
+  color: #8f8d8b;
+  justify-content: space-between;
+}
+.sectionSeven .body{
+  color:#8f8d8b
+}
+.sectionSeven .footnote2a{
+  color:#8f8d8b;
+}

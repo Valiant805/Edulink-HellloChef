@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px) {
+/* SECTION ONE */
+.sectionOne{
+    height: 80svh;
+    width: 100%;
+}
+.h1{
+    width: 50%;
+}
+.navbar{
+    justify-content: center;
+}
+.sectionOne .navigation{
+    display: none;
+}
+.bannerText{
+    margin-top: 100px;
+}
+/*SECTION TWO*/
+.sectionTwo{
+    height: 220svh;
+}
+.sectionTwo .title{
+    height: fit-content;
+}
+.sectionTwo .content{
+    height: 95%;
+    flex-direction: column;
+}
+.sectionTwo .principle{
+    height: 30%;
+    width: 50%;
+}
+.sectionTwo .image{
+    height: 60%;
+}
+.sectionTwo .description{
+    height: 40%;
+}
+.sectionTwo .variety{
+    margin: 0;
+}
+/*SECTION THREE */
+.sectionThree{
+    height: 190svh;
+    flex-direction: column;
+}
+.sectionThree .image,
+.sectionThree .content{
+    height: 50%;
+    width: 100%;
+}
+/*SECTION FOUR */
+.sectionFour{
+    height: 200svh;
+    justify-content: space-evenly;
+}
+.sectionFour h2,
+.sectionFour p{
+text-align: center;
+}
+.sectionFour p{
+    width:100%;
+}
+.sectionFour .menu{
+    height: 100%;
+    flex-direction: column;
+}
+.sectionFour .item{
+    height: 30%;
+    width: 30%;
+}
+/*SECTION FIVE*/
+.sectionFive{
+    height: 125svh;
+}
+.sectionFive .users{
+    height: 75%;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.sectionFive .user{
+    max-height: 50%;
+    float: left;
+    min-width: 43%;
+    background-position: top;
+}
+.sectionFive .rating{
+    height: 20%;
+}
+/*SECTION SEVEN*/
+.sectionSeven .details{
+    justify-content: space-between;
+    margin: 0;
+}
+.sectionSeven .subscription{
+    justify-content: space-between;
+}
+}
+@media screen and (max-width: 320px){
+.sectionOne{
+
+}
+}
+@media screen and (max-width: 674px){
+    
+}
+@media screen and (max-width : 123px){
+.sectionOne{
+
+}
+}
+    
+
